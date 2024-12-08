@@ -1,0 +1,19 @@
+#TabsToolbar {
+  visibility: collapse;
+}
+
+.titlebar-buttonbox-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#nav-bar {
+    margin-top: -6px;
+    margin-bottom: -6px;
+	margin-right: 140px;
+}
+
+#sidebar-header {
+    display: none !important;
+}
