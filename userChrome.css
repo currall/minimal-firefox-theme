@@ -17,3 +17,24 @@
 #sidebar-header {
     display: none !important;
 }
+
+/* new sidebar header */
+#sidebar-panel-header {
+    display: none !important;
+}
+
+/* disable rounded corners */
+
+:root {
+  --tab-border-radius: 0px !important;
+  --border-radius-small: 0px !important;
+  --border-radius-medium: 0px !important;
+  --border-radius-large: 0px !important;
+  --border-radius-xlarge: 0px !important;
+  --panel-border-radius: 0px !important;
+  --panel-menuitem-border-radius: 0px !important;
+}
+
+#navigator-toolbox, #TabsToolbar, #nav-bar {
+  border-radius: 0px !important;
+}
